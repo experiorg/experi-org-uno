@@ -1,0 +1,14 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <div> 
+    <img src="/images/ollie-med.png"> 
+    <a href="/blog.html" alt="The Experi.org Blog">Blog</a>|
+    <a href="/about.html" alt="About Experi.org's mission">About</a>|
+    <a href="/donate.html" alt="How to donate and contribute to Experi.org">Donate</a>
+    <a href="/library.html" alt="Useful information to know when experimenting with organisations">Library</a>
+  </div>
+  {{content}}
+  </body>
+</html>
