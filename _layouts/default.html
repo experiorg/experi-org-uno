@@ -1,14 +1,22 @@
 <html>
   <head>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-responsive.min.css" media="all" />
   </head>
   <body>
-  <div> 
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner"> 
     <img src="/images/ollie-med.png"> 
-    <a href="/blog.html" alt="The Experi.org Blog">Blog</a>|
-    <a href="/about.html" alt="About Experi.org's mission">About</a>|
-    <a href="/donate.html" alt="How to donate and contribute to Experi.org">Donate</a>
-    <a href="/library.html" alt="Useful information to know when experimenting with organisations">Library</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+    <li> <a href="/blog.html" alt="The Experi.org Blog">Blog</a> </li>
+    <li><a href="/about.html" alt="About Experi.org's mission">About</a> </li>
+    <li> <a href="/donate.html" alt="How to donate and contribute to Experi.org">Donate</a>  </li>
+    <li><a href="/library.html" alt="Useful information to know when experimenting with organisations">Library</a> </li>
   </div>
+  <div class="container">
   {{content}}
+  </div>
   </body>
+  
 </html>
