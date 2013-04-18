@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Experi.org - Experiments in the future of Organizations
+title: A Call to Keyboards - experi.org
 ---
 
 

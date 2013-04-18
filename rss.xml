@@ -5,10 +5,10 @@ layout: nil
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
-    <title>spparker.com // Scott Parker</title>
-    <link>http://www.spparker.com/</link>
-    <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>A blog like any other, except this one is mine.</description>
+    <title>Experi.org</title>
+    <link>http://www.experi.org/</link>
+    <atom:link href="http://www.experi.org/rss.xml" rel="self" type="application/rss+xml" />
+    <description>A blog for all things experimental organizations.</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
@@ -16,10 +16,10 @@ layout: nil
     {% for post in site.posts %}
       <item>
         <title>{{ post.title }}</title>
-        <link>http://www.spparker.com{{ post.url }}</link>
+        <link>http://www.experi.org{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
-        <author>Scott Parker</author>
-        <guid>http://www.spparker.com{{ post.url }}</guid>
+        <author>Will Pearson</author>
+        <guid>http://experi.org{{ post.url }}</guid>
         <description>{{ post.content | xml_escape }}</description>
       </item>
     {% endfor %}
